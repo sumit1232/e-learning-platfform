@@ -1,4 +1,8 @@
+import Header from './Header'
+import Offers from './Offers'
 import Aboutus from './Aboutus'
+import Course from './Course'
+
 import Contactus from './Contactus'
 import QnA from './QandA'
 import Integrate from './Integrate'
@@ -12,6 +16,9 @@ function App() {
 
   return (
    <>
+   <Header></Header>
+   <Offers></Offers>
+   <Course></Course>
    <PlanandPrice></PlanandPrice>
    <Aboutus></Aboutus>
    <Contactus></Contactus>
