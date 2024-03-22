@@ -9,8 +9,10 @@ import Integrate from './Integrate'
 import PlanandPrice from './PlanandPrice'
 import Goals from './Goals'
 import Footer from './Footer'
+import Feedback from './Feedback' 
 
 import './App.css'
+import feedBack from './Feedback'
 
 
 function App() {
@@ -24,10 +26,11 @@ function App() {
    {/* <CourseList></CourseList> */}
 <Goals></Goals>
    <PlanandPrice></PlanandPrice>
-   <Aboutus></Aboutus>
-   <Contactus></Contactus>
-   <QnA></QnA>
-   <Integrate></Integrate>
+   {/* <Aboutus></Aboutus> */}
+   {/* <Contactus></Contactus> */}
+   {/* <QnA></QnA> */}
+   <Feedback />
+   {/* <Integrate></Integrate> */}
    <Footer></Footer>
   
    
