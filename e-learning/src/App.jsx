@@ -26,7 +26,7 @@ function App() {
    {/* <CourseList></CourseList> */}
 <Goals></Goals>
    <PlanandPrice></PlanandPrice>
-   {/* <Aboutus></Aboutus> */}
+   <Aboutus></Aboutus>
    {/* <Contactus></Contactus> */}
    {/* <QnA></QnA> */}
    <Feedback />
